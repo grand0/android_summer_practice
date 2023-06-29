@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">android_summer_practice</string>
+    <string name="name_edit_text_hint">Name</string>
+    <string name="height_edit_text_hint">Height</string>
+    <string name="weight_edit_text_hint">Weight</string>
+    <string name="age_edit_text_hint">Age</string>
+    <string name="male_radio_button">Male</string>
+    <string name="female_radio_button">Female</string>
+    <string name="calculate_button">Calculate</string>
 </resources>
