@@ -22,6 +22,9 @@
         <action
             android:id="@+id/action_mainFragment_to_favoritesFragment"
             app:destination="@id/favoritesFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_checkoutFragment"
+            app:destination="@id/checkoutFragment" />
     </fragment>
     <fragment
         android:id="@+id/cartFragment"
@@ -40,17 +43,29 @@
         android:id="@+id/favoritesFragment"
         android:name="ru.kpfu.itis.team1.android_summer_practice.fragments.FavoritesFragment"
         android:label="FavoritesFragment"
-        tools:layout="@layout/fragment_favorites" />
+        tools:layout="@layout/fragment_favorites" >
+        <action
+            android:id="@+id/action_favoritesFragment_to_checkoutFragment"
+            app:destination="@id/checkoutFragment" />
+    </fragment>
     <fragment
         android:id="@+id/catalogFragment"
         android:name="ru.kpfu.itis.team1.android_summer_practice.fragments.CatalogFragment"
         android:label="CatalogFragment"
-        tools:layout="@layout/fragment_catalog" />
+        tools:layout="@layout/fragment_catalog" >
+        <action
+            android:id="@+id/action_catalogFragment_to_checkoutFragment"
+            app:destination="@id/checkoutFragment" />
+    </fragment>
     <fragment
         android:id="@+id/profileFragment"
         android:name="ru.kpfu.itis.team1.android_summer_practice.fragments.ProfileFragment"
         android:label="ProfileFragment"
-        tools:layout="@layout/fragment_profile" />
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_profileFragment_to_checkoutFragment"
+            app:destination="@id/checkoutFragment" />
+    </fragment>
     <fragment
         android:id="@+id/checkoutFragment"
         android:name="ru.kpfu.itis.team1.android_summer_practice.fragments.CheckoutFragment"
